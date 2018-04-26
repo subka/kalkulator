@@ -1,7 +1,7 @@
 print("Hello world")
-def dodaj():
+def dodaj(a,b):
 	a = int(input())
 	b = int(input())
-	print(a+b)
+	return a+b
 	
-dodaj()
+print(dodaj())
